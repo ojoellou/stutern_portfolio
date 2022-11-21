@@ -1,0 +1,44 @@
+body{
+    font-family: DM 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#nav-bar{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 30px;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid black;
+}
+
+#about-section{
+    display: flex;
+    flex-direction: row;
+    margin: 120px;
+}
+#career-section{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+button{
+    padding: 5px;
+    margin: 5px;
+}
+#about-text, #career-text, #buttons{
+    margin-left: 20px;
+    width: 500px;
+    line-height: 25px;
+}
+.nav{
+    margin-right: 20px;
+}
+#logo{
+    margin-left: 20px;
+    margin-right: 850px;
+}
